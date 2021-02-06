@@ -47,5 +47,5 @@ export interface IChannel {
   name: string;
   description: string;
   id: string;
-  messages: IMessage[]
+  messages: IMessage[];
 }
