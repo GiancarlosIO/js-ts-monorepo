@@ -65,5 +65,5 @@ export function isMessage(arg: any): arg is IMessage {
     typeof arg.channelId === "string" &&
     typeof arg.userId === "string" &&
     typeof arg.body === "string"
-  );
+  )
 }
